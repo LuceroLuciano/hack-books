@@ -1,0 +1,114 @@
+.mainPrincipal-section4 {
+    background: orange;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-libros {
+    padding: 50px;
+    position: absolute; /*  */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 50px;
+    right: 50px;
+}
+
+.card-libro {
+    position: relative; /* posicion el elemento de acuerdo a las medidas */
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+}
+
+/* Diseño de la tarjeta frontal */
+.card-libro .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;  /* Para definir q ue ver y que no ver */
+    border-radius: 10px;
+    overflow: hidden; /*property controls what happens to content that is too big to fit into an area. The reat of content is invisible*/
+    transition: .5s;
+}
+
+/* Efecto de rotación */
+.card-libro .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card-libro .front .imagen-libro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-libro .front .titulo-libro-front {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Diseño de la tarjeta de la parte posterior  */
+
+.card-libro .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card-libro .back .link-libro {
+    border-top: solid 1px #f3f3f3;
+    height: 59px;
+    line-height: 50px;
+}
+
+.card-libro .back .link-libro a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.card-libro .back .link-libro a:hover {
+    color: rgb(232, 232, 10);
+}
+
+.card-libro .back .titulo-libro-back {
+    font-size: 25px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+}
+
+.card-libro .back .parrafo-libro {
+    font-size: 15px;
+}
+
+.card-libro:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card-libro:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+} 
+
+.boton-ver-mas {
+    margin-left: 40%;
+    margin-top: 40%;
+}

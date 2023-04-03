@@ -1,0 +1,85 @@
+@media screen and (min-width:0){
+    .mainPrincipal-section3-div1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mainPrincipal-section3 {
+        /* background-color: blueviolet; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .mainPrincipal-section3-li {
+        /* height: 150px;
+        width: 250px; */
+        background-color: rgb(232, 202, 33);
+        text-align: center;
+        /* margin: 0%; */
+        transition: .3s;
+        /* box-shadow: 2px 2px 2px #a8a8a8; */
+        position: relative;
+        font-size: 1.1em;
+        /* display: flex;
+        flex-wrap: wrap; */
+        /* border-radius: 50%; */
+        height: 150px;
+        /* border-radius: 10%; */
+    }
+    
+    .mainPrincipal-section3-li a {
+        text-decoration: none;
+        color: #2f2d2d;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute; /* Para poder posicionar mas cosas */
+        top: 0;
+        left: 0;
+    }
+    
+    
+    .mainPrincipal-section3-li:nth-child(even) {
+        /* box-shadow: 4px 4px 4px #CCC;     */
+        background-color: #e35050;
+        height: 150px;
+        /* border-radius: 10%; */
+        text-align: center;
+        /* margin: 0%; */
+        transition: .3s;
+        /* box-shadow: 2px 2px 2px #a8a8a8; */
+        position: relative;
+        font-size: 1.1em;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    
+    .mainPrincipal-section3-li a:before {
+        content: '';
+        display: block;
+        width:  50px;
+        height: 50px;
+        margin: 10px auto;
+        /* color: #FFF; */
+    }
+    
+    .mainPrincipal-section3-li:nth-child(even) a:before {
+        background: url("../img/librito.svg") no-repeat;
+    }
+    
+    .mainPrincipal-section3-li:nth-child(odd) a:before {
+        background: url("../img/librito3.svg") no-repeat;
+    }
+    
+    .img-beneficio-lectura {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 5%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    }
+}
+

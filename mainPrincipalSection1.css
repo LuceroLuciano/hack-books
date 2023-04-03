@@ -1,0 +1,61 @@
+.mainPrincipal-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 12.25rem; */
+    padding-bottom: 2.5rem;
+    padding-right: 0%; 
+    padding-left: 0%;  
+    
+}
+
+.mainPrincipal-section1-imagen {    
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0 , 0.5),
+        rgba(0, 0 , 0, 0.5)
+    ), url('../img/banner-book.jpg') no-repeat center / cover;
+    width: 100%;
+    /* height: 500px; */
+}
+
+.mainPrincipal-section1-titulo {
+    color:  #ebe7e7;  /*#e35050*/
+    font-family: Pacifico, cursive;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    position: absolute; /* Para que se posicione sobre el contenido */
+    text-align: center;
+    /* padding-top: 30%; */
+    /* font-size: 2.5em; */
+
+}
+
+.mainPrincipal-section1-parrafo {
+    position: absolute;
+    color: #ebe7e7;
+    text-align: center;
+    /* padding-top: 70%; */
+    /* font-size: 1em; */
+    padding-left: 2%;
+    padding-right: 2%;
+    /* line-height: 1.3em; */
+}
+
+.mainPrincipal-section1-a {
+    background-color: #e35050;
+    /* padding: 15px 30px; */
+    text-decoration: none;    
+    position: absolute;
+    /* margin-top: 90%; */
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.mainPrincipal-section1-a:hover {
+    color: rgb(232, 202, 33);
+    font-weight: bolder;
+    transition: .5s;
+}

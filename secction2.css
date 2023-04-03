@@ -1,0 +1,31 @@
+.mainPrincipal-section2 {
+    background-color: rgb(255, 253, 253);
+}
+
+
+/* .section2-imagene {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+} */
+
+/* .mainPrincipal-parrafo {
+    padding: 5% 10% 10% 10%;
+    text-align: justify;
+} */
+
+
+
+.section2-imagene {
+    /* width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    /* padding: 5% 5% 5% 10%;  
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);  */
+}
+
+/* .section2-imagene {
+    display: none; * Oculta la imagen 
+} */

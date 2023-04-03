@@ -1,0 +1,25 @@
+/* EStilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+body {
+    background: rgb(232, 151, 164);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.subtitulo {
+    font-family: Pacifico, cursive;
+    font-size: 2.5em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    color: #e35050;
+    text-align: center;
+}
+
+.subtitulo:hover {
+    color: rgb(232, 202, 33);
+}
