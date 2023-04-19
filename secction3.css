@@ -8,12 +8,15 @@
         /* background-color: blueviolet; */
         margin-top: 20px;
         margin-bottom: 20px;
+        /* background-image: url('https://media.istockphoto.com/id/1472053073/es/vector/mariposas-y-cerezos-en-flor.jpg?s=170667a&w=0&k=20&c=LYh8MfMEfhPgVBN2XeQ_j81gkFzzX11HWA_TWq8qEJI=');
+        background-repeat: no-repeat;
+        background-size: cover; */
     }
     
     .mainPrincipal-section3-li {
         /* height: 150px;
         width: 250px; */
-        background-color: rgb(232, 202, 33);
+        
         text-align: center;
         /* margin: 0%; */
         transition: .3s;

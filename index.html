@@ -21,6 +21,8 @@
         <link rel="stylesheet" href="secction3.css">
         <link rel="stylesheet" href="seccion4.css">
         <link rel="stylesheet" href="secction5.css">
+        <link rel="stylesheet" href="secction6.css">
+        <link rel="stylesheet" href="footer.css">
     </head>
     <body>
         <!-- Encabezado principal -->
@@ -76,7 +78,7 @@
                     <li class="mainPrincipal-section3-li"><a href="#">Aumenta la inteligencia</a></li>
                     <li class="mainPrincipal-section3-li"><a href="#">Estimula la creatividad</a></li>
                     <li class="mainPrincipal-section3-li"><a href="#">Alarga la esperanza de vida</a></li>
-                    <li class="mainPrincipal-section3-li"><a href="#">Te hace sentir feliz</a></li>
+                    <!-- <li class="mainPrincipal-section3-li"><a href="#">Te hace sentir feliz</a></li> -->
                 </ul>
             </div>
             <div class="mainPrincipal-section3-div2">
@@ -145,45 +147,35 @@
         <!-- Seccion recomendaciones -->
         <section class="mainPrincipal-section5">
             <h3 class="mainPrincipal-section5-titulo subtitulo">Mis recomendaciones</h3>
-            <ul class="mainPrincipal-section5-recomendacion-libros">
-                <li class="tarjeta">
-                    <h3 class="tarjeta-titulo">Novela</h3>
-                    <article class="tarjeta-contenido">
-                        <img src="" alt="Los lenguajes del amor">
-                        <p class="tarjeta-texto">Los lenguajuajes del amor</p>
-                        <a class="tarjeta-boton" href="#">Leer Ya!</a>
-                    </article>
-                </li>
-                <li class="tarjeta">
-                    <h3 class="tarjeta-titulo">Autoayuda</h3>
-                    <article class="tarjeta-contenido">
-                        <p class="tarjeta-texto">7 Hábitos de los adolescentes altamente efectivos</p>
-                        <a class="tarjeta-boton" href="#">Leer Ya!</a>
-                    </article>
-                </li>
-                <li class="tarjeta">
-                    <h3 class="tarjeta-titulo">Cuentos</h3>
-                    <article class="tarjeta-contenido">
-                        <p class="tarjeta-texto">Alicia el en pais de las maravillas</p>
-                        <a class="tarjeta-boton" href="#">Leer Ya!</a>
-                    </article>
-                </li>
-            </ul>
+            <div class="slider-container" id="slider">
+                <div class="slider">
+                    <div class="slider__element slider__element_book1"><hp>5 Lenguajes del amor</hp>
+                    </div>
+                    <div class="slider__element slider__element_book2">7 <hp>Hábitos de los adolescentes altamente efectivos</hp></div>
+                    <div class="slider__element slider__element_book3">Alicia en el pais de las maravillas</div>
+                    <div class="slider__element slider__element_book4">El ángel numero 12</div>
+                    </div>
+                </div>
+            <div class="slider-buttons">
+                <button id="button-left" class="button button--left"><</button>
+                <button id="button-right" class="button button--right" >></button>
+            </div>
         </section>        
     <!-- Seccion de contacto -->
         <section class="mainPrincipal-section6">
             <h3 class="subtitulo">Conctacto</h3>
             <div class="mainPrincipal-section6-contenido">
                 <div class="mainPrincipal-video">
-                    <iframe width="1024" height="576" src="https://www.youtube.com/embed/Xgi193yeh9g" title="12 SORPRENDENTES BENEFICIOS DE LEER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="video" width="1024" height="576" src="https://www.youtube.com/embed/Xgi193yeh9g" title="12 SORPRENDENTES BENEFICIOS DE LEER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="mainPrincipal-formulario">
                     <form action="#" class="formulario-contacto">
-                        <label class="formulario-contacto-label" for="comentario">Comentario</label><br>
-                        <input class="formulario-contacto-input" type="text" placeholder="Comentario" required><br>
                         <label class="formulario-contacto-label" for="email" type="email">Correo electronico</label><br>
-                        <input lass="formulario-contacto-input" type="email" placeholder="Correo electronico" required><br>
-                        <input type="submit" value="Enviar">
+                        <input class="formulario-contacto-input-email" type="email" placeholder="Correo electronico" required><br><br>                        
+                        <label class="formulario-contacto-label" for="comentario">Comentario</label><br>
+                        <textarea class="formulario-contacto-input-comment"  placeholder="Escrcribe tu comentario aqui" rows="4" cols="50" required>
+                        </textarea><br>
+                        <input class="input-button" type="submit" value="Enviar">
                     </form>
                 </div>
             </div>            
@@ -199,7 +191,8 @@
             <a href="#"><i class="bi bi-tiktok"></i></a>
             <a href="#"><i class="bi bi-discord"></i></a>
             <a href="mailto:lucero@hack.mx"><i class="bi bi-envelope"></i></a>
-        </div>
-        <div class="derechos-de-autor">&#169; Lucero (2023)</div>
+        </div><br>
+        <div class="derechos-de-autor">&#169; Lucero (2023)</div><br>
     </footer>
+    <script src="script.js"></script>
 </html>

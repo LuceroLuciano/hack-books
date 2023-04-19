@@ -6,8 +6,111 @@
     
 }
 
+:root {
+    --slide-transform: 0;
+    --transition: transform 1s;
+  }
+  
+  body {
+    background-color: #111;
+    font-family: sans-serif;
+    color: aliceblue;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .slider-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #fff;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transform: translateX(var(--slide-transform));
+    transition: var(--transition);
+  }
+  
+  .slider__element {
+    min-width: 100%;
+    height: 300px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+
+  .slider__element_book1 {    
+    background-image: url(https://th.bing.com/th/id/OIP.pUqmyuL-iZWWd63GWRxWAwHaDF?pid=ImgDet&rs=1);
+  }
+
+  .slider__element_book2 {
+    background-image: url(https://static.wixstatic.com/media/64c1dc_bdeac9bb2eee406dad0bc55ced45a5f4~mv2.jpg/v1/fit/w_1000%2Ch_512%2Cal_c%2Cq_80/file.jpg);
+  }
+
+  .slider__element_book3 {
+    background-image: url(https://th.bing.com/th/id/R.9314235c492511cb8b61cbf974f5e1d5?rik=ySX%2bDtdrmIumnA&pid=ImgRaw&r=0);
+  }
+
+  .slider__element_book4 {
+    background-image: url(https://th.bing.com/th/id/R.209ccde003036b3d43eef8ee8023a8cc?rik=NXBYT8WJLORj5g&riu=http%3a%2f%2fwww.petrol.si%2fbinaries%2fcontent%2fgallery%2fwww%2f2020%2fznanje-in-podpora%2fclanki%2fprevisoka-cena-elektricne-energije-tako-jo-lahko-zopet-znizate%2fx2-thumbnail-znizajte-ceno-elektrike.jpg&ehk=TtqOzEenrMVw9EvKwf2OkphtO0VhfMNjjk6NIsulN1U%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .slider__element--lightcoral {
+    background-color: lightcoral; 
+  }
+  
+  .slider__element--lightgreen {
+    background-color: lightgreen;
+  }
+  
+  .slider__element--lightskyblue {
+    background-color: lightskyblue;
+  }
+  
+  .slider__element--lightsalmon {
+    background-color: lightsalmon;
+  }
+  
+  .slider-buttons {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button {
+    background: none;
+    border: none;
+    background-color: grey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .button:active {
+    transform: scale(0.9);
+  }
+
+
 body {
-    background: rgb(232, 151, 164);
+    /* background: rgb(232, 151, 164); */
+    background-image: url('https://media.istockphoto.com/id/1472053073/es/vector/mariposas-y-cerezos-en-flor.jpg?s=170667a&w=0&k=20&c=LYh8MfMEfhPgVBN2XeQ_j81gkFzzX11HWA_TWq8qEJI=');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -16,7 +119,7 @@ body {
     font-family: Pacifico, cursive;
     font-size: 2.5em;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    color: #e35050;
+    color: aliceblue; /*#e35050*/
     text-align: center;
 }
 
