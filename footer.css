@@ -1,0 +1,28 @@
+.footer {
+    background-image: url('https://media.istockphoto.com/id/1472053073/es/vector/mariposas-y-cerezos-en-flor.jpg?s=170667a&w=0&k=20&c=LYh8MfMEfhPgVBN2XeQ_j81gkFzzX11HWA_TWq8qEJI=');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: black;
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer p {
+    font-family: cursive;
+    font-size: 2.0em;
+    padding-top: 10px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.derechos-de-autor {
+    color: aliceblue;
+}

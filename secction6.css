@@ -1,0 +1,87 @@
+/* @media(min-width: 1000px){ */
+    .mainPrincipal-section6 {
+        width: 100%;
+    }
+    
+    
+    .mainPrincipal-section6-contenido {   
+        /* background-image: url('https://media.istockphoto.com/id/1472053073/es/vector/mariposas-y-cerezos-en-flor.jpg?s=170667a&w=0&k=20&c=LYh8MfMEfhPgVBN2XeQ_j81gkFzzX11HWA_TWq8qEJI=');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        padding-left: 10%;
+        padding-right: 10%;    
+        height: 600px;
+        display: flex;
+    }   
+    
+    .mainPrincipal-video {
+        justify-content: center;
+        position: relative;     
+        display: flex;
+        position: absolute;
+    }
+    
+    .video {
+        border-radius: 20px;
+        padding-top: 5%;
+        width: 600px;
+        height: 400px;
+    }
+    
+    
+
+/* } */
+
+
+.mainPrincipal-formulario {
+    justify-content: center;
+    align-items: center;
+    padding-left: 50%;    
+    padding-top: 5%;    
+    position: absolute;
+}
+
+.formulario-contacto {
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: brown;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    border-radius: 8px;
+}
+
+.formulario-contacto-label {
+    font-size: 1.2em;
+
+}
+
+.formulario-contacto-input-email {
+    width: 380px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid red;    
+}
+
+.formulario-contacto-input-comment {
+    width: 30   0px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid red; 
+}
+
+.input-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #e35050;
+    color: rgb(232, 202, 33);
+    font-weight: bold;
+    border-bottom: #e35050;
+}

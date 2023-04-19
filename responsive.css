@@ -209,4 +209,42 @@
     .mainPrincipal-section5 {
         margin-top: 220%;
     }
+
+
+    /* Diseño responsivo de la sieccion slide */
+    .mainPrincipal-section5 {
+        width: 100%;     
+        background-color: green;      
+    
+    }
+
+    .slider-container {
+        width: 60%;
+    }
+
+    /* .mainPrincipal-section6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainPrincipal-section6-contenido {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video {        
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.75);
+        flex-direction: column;
+    }
+
+    .mainPrincipal-formulario {
+        display: flex;
+        flex-direction: row;
+    } */
+
 }
